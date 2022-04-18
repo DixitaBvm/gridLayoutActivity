@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GridLayoutActivity">
         <activity
-            android:name=".full_Images"
+            android:name=".full_image_Activity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
