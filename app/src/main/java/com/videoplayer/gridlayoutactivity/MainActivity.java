@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
@@ -22,5 +23,7 @@ public class MainActivity extends AppCompatActivity {
         gridView.setAdapter(new ImageAdapter(this));
 
         Toast.makeText(this, "helloo", Toast.LENGTH_SHORT).show();
+
+        Log.e("TAG", "onCreate: hello this gird demo" );
     }
 }
