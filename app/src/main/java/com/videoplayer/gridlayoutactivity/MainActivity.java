@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,5 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Instance of ImageAdapter Class
         gridView.setAdapter(new ImageAdapter(this));
+
+        Toast.makeText(this, "helloo", Toast.LENGTH_SHORT).show();
     }
 }
